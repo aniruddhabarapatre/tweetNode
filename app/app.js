@@ -5,9 +5,8 @@ app.use(bodyParser.json());
 
 
 var tweets = [
-  {text: "Hai dude.", time: new Date().getTime() - 12300},
-  {text: "This is cool.", time: new Date().getTime() - 1000},
-  {text: "What's up?", time: new Date().getTime()},
+  {text: "Test tweet 2", time: new Date().getTime() - 1000},
+  {text: "Test tweet 1", time: new Date().getTime()},
 ];
 
 app.use(express.static(__dirname + '/public'));
